@@ -1,0 +1,80 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Fernando",
+        "email": "fernando@email.com",
+        "age": 30,
+        "city": "São Paulo",
+        "created_at": "2024-01-15T10:30:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Maria Silva",
+        "email": "maria@email.com", 
+        "age": 28,
+        "city": "Rio de Janeiro",
+        "created_at": "2024-01-20T14:20:00Z"
+      },
+      {
+        "id": 3,
+        "name": "João Santos",
+        "email": "joao@email.com",
+        "age": 35,
+        "city": "Belo Horizonte",
+        "created_at": "2024-01-25T09:15:00Z"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Notebook Dell",
+        "description": "Notebook para desenvolvimento",
+        "price": 2500.99,
+        "category": "Eletrônicos",
+        "stock": 10,
+        "created_at": "2024-01-10T08:00:00Z"
+      },
+      {
+        "id": 2,
+        "name": "Mouse Logitech",
+        "description": "Mouse sem fio ergonômico",
+        "price": 89.90,
+        "category": "Acessórios",
+        "stock": 25,
+        "created_at": "2024-01-12T11:30:00Z"
+      },
+      {
+        "id": 3,
+        "name": "Teclado Mecânico",
+        "description": "Teclado mecânico RGB",
+        "price": 299.99,
+        "category": "Acessórios", 
+        "stock": 15,
+        "created_at": "2024-01-18T16:45:00Z"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "products": [
+          { "product_id": 1, "quantity": 1 },
+          { "product_id": 2, "quantity": 2 }
+        ],
+        "total": 2680.89,
+        "status": "completed",
+        "created_at": "2024-02-01T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "products": [
+          { "product_id": 3, "quantity": 1 }
+        ],
+        "total": 299.99,
+        "status": "pending",
+        "created_at": "2024-02-03T15:30:00Z"
+      }
+    ]
+  }

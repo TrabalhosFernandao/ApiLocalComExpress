@@ -1,13 +1,16 @@
 {
   "name": "apifernandao",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["api", "express", "nodejs", "rest"],
+  "author": "Fernando",
+  "license": "GPL-3.0",
+  "description": "API REST simples com Express.js simulando banco de dados com arquivo JSON",
   "dependencies": {
     "express": "^5.1.0"
   },
@@ -15,3 +18,4 @@
     "nodemon": "^3.1.10"
   }
 }
+
