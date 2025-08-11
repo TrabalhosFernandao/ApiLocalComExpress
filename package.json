@@ -1,16 +1,16 @@
 {
-  "name": "apifernandao",
+  "name": "apilocalcomexpress",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
-  "keywords": ["api", "express", "nodejs", "rest"],
-  "author": "Fernando",
-  "license": "GPL-3.0",
-  "description": "API REST simples com Express.js simulando banco de dados com arquivo JSON",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^5.1.0"
   },
@@ -18,4 +18,3 @@
     "nodemon": "^3.1.10"
   }
 }
-
